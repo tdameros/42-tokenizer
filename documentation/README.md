@@ -3,6 +3,10 @@
 - [Token.sol](code/Token.sol): A simple ERC-20 token contract that allows users to create and manage their own tokens.
 - [Wallet.sol](code/Wallet.sol): A multi-signature wallet contract that requires multiple signatures to execute transactions, enhancing security for managing funds.
 
+
+- Token in sepolia: [0x09723aF62E5C11da63c66df6c772369967D961F8](https://sepolia.etherscan.io/address/0x09723aF62E5C11da63c66df6c772369967D961F8)
+- Wallet in sepolia: [0x4e10c18d55c81881414B2C7716F5524168EbbB82](https://sepolia.etherscan.io/address/0x4e10c18d55c81881414B2C7716F5524168EbbB82)
+
 ## Token.sol
 
 Token42 is a custom ERC20 token implementation with minting and burning capabilities, built using OpenZeppelin contracts.

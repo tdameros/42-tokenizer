@@ -6,6 +6,7 @@
 # Remix IDE
 .deps/
 .states/
+.deploys/
 artifacts/
 
 # Dependencies
