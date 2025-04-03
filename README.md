@@ -1,6 +1,17 @@
+# 42 - Tokenizer
+
 ![](documentation/images/banner.png)
 
-## What is a blockchain ?
+The goal of this project is to create a simple token and multi-sig wallet on the Ethereum blockchain using Solidity, the programming language for Ethereum smart contracts. 
+
+## Project documentation 
+
+- [Smart contract documentation](documentation/README.md)
+- [Deployment instructions](deployment/README.md)
+
+## General explanation
+
+### What is a blockchain ?
 
 A blockchain is a decentralized digital ledger that records transactions across multiple computers in a way that ensures security, transparency, and immutability. It operates as a chain of blocks, where each block contains a set of transactions, a timestamp, and a reference to the previous block through a cryptographic hash. This linking mechanism creates a secure and tamper-proof system.
 
@@ -8,11 +19,11 @@ When a transaction occurs, it is broadcast to a network of computers (nodes), wh
 
 ![](documentation/images/blockchain_schema.jpg)
 
-## Difference between coins and tokens
+### Difference between coins and tokens
 
 The main difference between a coin and a token lies in their purpose and the blockchain they operate on. A coin typically refers to a digital asset that has its own native blockchain, like Bitcoin or Ethereum. It is primarily used as a currency or store of value within its respective blockchain ecosystem. A token, on the other hand, is a digital asset that exists on an existing blockchain, such as Ethereum, and can represent various things like assets, services, or even voting rights. Tokens are usually created using smart contracts on a platform like Ethereum, allowing for more flexibility in their use cases beyond just serving as a currency. Coins are generally used for transactions or as a medium of exchange, while tokens can represent anything from utility within a specific project to ownership or rights in decentralized applications.
 
-## What is a smart contract?
+### What is a smart contract?
 
 A smart contract is a self-executing contract with the terms of the agreement directly written into lines of code. It runs on a blockchain, typically Ethereum, and automatically enforces and executes the contract's terms when predefined conditions are met. Once deployed on the blockchain, smart contracts are immutable, meaning they can't be changed, which ensures transparency and trust.
 
@@ -22,7 +33,7 @@ Smart contracts are used in various applications, including decentralized financ
 
 ![](documentation/images/smart_contracts_overview.jpeg)
 
-## What is an ERC-20 token?
+### What is an ERC-20 token?
 
 An ERC-20 token is a type of token standard used on the Ethereum blockchain. "ERC" stands for Ethereum Request for Comments, and "20" is the unique proposal number for this standard. ERC-20 defines a set of rules that all tokens on the Ethereum network must follow, ensuring that they are interoperable with each other and with Ethereum-based applications like wallets, exchanges, and smart contracts.
 
@@ -33,16 +44,7 @@ The ERC-20 standard specifies how tokens should behave, including how they are t
 - Approve and Allowance: Allows users to approve a third party (like a smart contract) to spend a certain amount of their tokens.
 - TotalSupply: Indicates the total supply of the token.
 
-
-
 ## Technical resources
 
 - https://solidity-by-example.org/hello-world/
 - https://www.youtube.com/watch?v=AYpftDFiIgk
-
-
-
-
-
-
-
