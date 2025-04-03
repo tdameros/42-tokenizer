@@ -1,2 +1,12 @@
+
+# IDE
 .idea/
 .code/
+
+# Remix IDE
+.deps/
+.states/
+artifacts/
+
+# Dependencies
+node_modules/
